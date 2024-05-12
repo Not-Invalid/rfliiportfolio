@@ -143,6 +143,8 @@ const Button = styled.a`
 
 const index = ({ openModal, setOpenModal }) => {
     const project = openModal?.project;
+    const isDesignCategory = project?.category === "design";
+    const isVideoCategory = project?.category === "video";
     return (
         <Modal open={true} onClose={() => setOpenModal({ state: false, project: null })}>
             <Container>
@@ -166,8 +168,18 @@ const index = ({ openModal, setOpenModal }) => {
                     </Tags>
                     <Desc>{project?.description}</Desc>
                     <ButtonGroup>
-                        <Button dull href={project?.github} target='new'>View Code</Button>
-                        <Button href={project?.webapp} target='new'>View Live App</Button>
+                        {isDesignCategory && (
+                            <Button href={project?.figma} target='new'>View Design</Button>
+                        )}
+                        {isVideoCategory && (
+                            <Button href={project?.video} target='new'>View Video</Button>
+                        )}
+                        {!isDesignCategory && !isVideoCategory && (
+                            <>
+                                <Button dull href={project?.github} target='new'>View Code</Button>
+                                <Button href={project?.webapp} target='new'>View Live App</Button>
+                            </>
+                        )}
                     </ButtonGroup>
                 </Wrapper>
             </Container>
