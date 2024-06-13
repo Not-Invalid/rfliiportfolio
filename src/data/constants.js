@@ -8,8 +8,7 @@ export const Bio = {
   description:
     "Hello, my name is Raffli Firmansyah. I have an interest in Web Development, Graphic Design and UI/UX Design. I want to take on challenges, continue learning, and create engaging digital experiences that have a positive impact on the world. With a strong belief in the power of technology and creativity, I am excited about the endless possibilities that await me in the future.",
   github: "https://github.com/Not-Invalid",
-  resume:
-    "https://drive.google.com/file/d/1eC2y_azGH17xhdjb3hu0d1Im3GgYQq3q/view?usp=drive_link",
+  resume: "https://drive.google.com/file/d/1_VJAm5sRCklmOX7l8bsN-cfKwKcx2itm/view?usp=sharing",
   insta: "https://www.instagram.com/r_flii5/?hl=en",
   whatsapp: "https://wa.me/6285771504500",
   youtube: "https://www.youtube.com/channel/UCZRfCGiZIWbC5DVFUFkeowg"
