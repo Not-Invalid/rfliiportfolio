@@ -32,6 +32,10 @@ export const skills = [
         image: require("../images/skill_icon/js.png"),
       },
       {
+        name: "PHP",
+        image: require("../images/skill_icon/php.png")
+      },
+      {
         name: "Bootstrap",
         image: require("../images/skill_icon/bootstrap.png"),
       },
@@ -40,8 +44,8 @@ export const skills = [
         image: require("../images/skill_icon/tailwind.png"),
       },
       {
-        name: "Java",
-        image: require("../images/skill_icon/java.png"),
+        name: "MySQL",
+        image: require("../images/skill_icon/mysql.png"),
       },
     ],
   },
@@ -104,21 +108,21 @@ export const skills = [
 export const education = [
   {
     id: 0,
-    img: "https://cdn.dribbble.com/userupload/12047665/file/original-1400e75682ce9a99519dec797b154458.png?resize=400x502",
+    img: require("../images/smk4.jpg"),
     school: "SMK Negeri 4 Kota Tangerang",
     date: "2022 - 2025",
     desc: "I am currently studying at a Vocational High School at SMK Negeri 4 Tangerang. I'm in the Software Engineering Department. Here I learned about Frontend, Android and Desktop programming. And I learned about Database Management."
   },
   {
     id: 1,
-    img: "https://smpn4kotatangerang.sch.id/assets/logo.png",
+    img: require("../images/smp4.jpeg"),
     school: "SMP Negeri 4 Kota Tangerang",
     date: "2019 - 2022",
     desc: "I completed my Junior High School education at SMP Negeri 4, Tangerang, where I developed my abilities academically and non-academicly."
   },
   {
     id: 2,
-    img: "https://sdncikokol1.sch.id/storage/2023/06/cropped-cropped-logo-baru-91x91.png",
+    img: require("../images/sdcikokol.png"),
     school: "Sd Negeri Cikokol 1",
     date: "2013 - 2019",
     desc: "I completed my Elementary School education at SD Negeri Cikokol 1, where I learned basic knowledge and skills​."
